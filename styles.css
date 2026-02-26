@@ -159,12 +159,13 @@ h1:hover, button:hover {
 
 /*Apply the Gradient Animation to Text*/
 #youtube span, #twitch span, #groupMe span,#churchCenter span,
-#instagram span, #spotify span, #facebook span, #Name, #raondom1 span, #random2 span, #random3 span{
+#instagram span, #spotify span, #facebook span, #Name, #random1 span, #random2 span, #random3 span{
     background-size: 200% 200%;
     animation: gradientShift 4s infinite alternate ease-in-out;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
 
 
 
