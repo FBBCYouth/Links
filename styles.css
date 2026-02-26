@@ -117,6 +117,14 @@ button {
     0 0 30px rgba(6, 94, 9, 0.7);
 }
 
+#raondom1 span, #random2 span, #random3 span {
+    background: linear-gradient(45deg, rgb(28, 170, 35), rgb(85, 253, 29), rgb(6, 94, 9));
+    -webkit-background-clip: text;
+    text-shadow: 0 0 10px rgba(28, 170, 35, 0.7),
+    0 0 20px rgba(85, 253, 29, 0.7),
+    0 0 30px rgba(6, 94, 9, 0.7);
+}
+
 /* Hover Effect */
 h1:hover, button:hover {
     transform: rotate(2deg) scale(1.1);
@@ -153,10 +161,11 @@ h1:hover, button:hover {
 
 /*Apply the Gradient Animation to Text*/
 #youtube span, #twitch span, #groupMe span,#churchCenter span,
-#instagram span, #spotify span, #facebook span, #Name{
+#instagram span, #spotify span, #facebook span, #Name, #raondom1 span, #random2 span, #random3 span{
     background-size: 200% 200%;
     animation: gradientShift 4s infinite alternate ease-in-out;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
 
