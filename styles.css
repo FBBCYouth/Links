@@ -117,7 +117,7 @@ button {
     0 0 30px rgba(6, 94, 9, 0.7);
 }
 
-#random1 span, #random2 span, #random3 span {
+#random1 span, #random2 span, #random3 span, #summerKick span {
     background: linear-gradient(45deg, rgb(255, 255, 255), rgb(191, 197, 190), rgb(62, 62, 62));
     -webkit-background-clip: text;
     text-shadow: 0 0 10px rgb(255, 255, 255, 0.7), 0 0 20px rgb(191, 197, 190, 0.7), 0 0 30px rgba(62, 62, 62, 0.7)
@@ -159,7 +159,7 @@ h1:hover, button:hover {
 
 /*Apply the Gradient Animation to Text*/
 #youtube span, #twitch span, #groupMe span,#churchCenter span,
-#instagram span, #spotify span, #facebook span, #Name, #random1 span, #random2 span, #random3 span{
+#instagram span, #spotify span, #facebook span, #Name, #random1 span, #random2 span, #random3 span, #summerKick span{
     background-size: 200% 200%;
     animation: gradientShift 4s infinite alternate ease-in-out;
     -webkit-background-clip: text;
